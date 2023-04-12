@@ -6,8 +6,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import tweetings from '../../public/images/articles/twitter-clone.png'
-import portfolio from '../../public/images/articles/portfolio.png'
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
 	return (
@@ -126,7 +124,7 @@ const projects = () => {
 						<div className='col-span-12'>
 							<FeaturedProject
 								type='Featured Project'
-								img={tweetings}
+								img='/public/images/articles/twitter-clone.png'
 								title='Tweetings'
 								link='https://tweetings.vercel.app/'
 								summary='A Twitter clone with built in Authentication, Posts, UserProfile and Single Post view. Built using NextJs, TailwindCss, tRpc and prisma '
@@ -136,7 +134,7 @@ const projects = () => {
 						<div className='col-span-6 sm:col-span-12'>
 							<Project
 								type='Project'
-								img={portfolio}
+								img='/public/images/articles/portfolio.png'
 								title='Developer Portfolio'
 								link='https://joao-costa-portfolio.netlify.com/'
 								github='https://github.com/JoaoArturCosta/portfolio-2023'
