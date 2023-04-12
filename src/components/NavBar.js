@@ -22,7 +22,7 @@ const CustomLink = ({ href, title, className = '' }) => {
         -bottom-0.5 h-[1px] group-hover:w-full transition-[width] 
         ease duration-300
         ${router.asPath === href ? 'w-full' : 'w-0'}
-				dark:bg-light
+				dark:bg-primaryDark
         `}>
 				&nbsp;
 			</span>

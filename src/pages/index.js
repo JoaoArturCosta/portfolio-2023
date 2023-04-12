@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Layout from '@/components/Layout'
-import profilePic from '../../public/images/profile/Wavy_Tech-08_Single-05-transformed.png'
+import profilePic from '../../public/images/profile/undraw_code_thinking_re_gka2.svg'
 import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
@@ -24,7 +24,7 @@ export default function Home() {
 			<main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
 				<Layout className='pt-0 md:p-16 sm:pt-8'>
 					<div className='flex items-center justify-between w-full lg:flex-col'>
-						<div className='w-1/2 md:w-full lg:w-full'>
+						<div className='w-[35vw] md:w-full lg:w-full'>
 							<Image
 								src={profilePic}
 								alt='Web Development'
@@ -60,7 +60,7 @@ export default function Home() {
 									target={'_blank'}
 									className='flex items-center bg-dark text-light p-2.5 
                   px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark 
-                  border border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark
+                  border border-solid border-transparent hover:border-dark dark:bg-transparent dark:text-primaryDark dark:border-primaryDark
 									hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base'
 									download={true}>
 									Résumé <LinkArrow className={'w-6 ml-1'} />

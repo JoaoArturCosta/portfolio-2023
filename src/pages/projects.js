@@ -7,6 +7,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import tweetings from '../../public/images/articles/twitter-clone.png'
+import portfolio from '../../public/images/articles/portfolio.png'
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
 	return (
@@ -134,11 +135,11 @@ const projects = () => {
 						</div>
 						<div className='col-span-6 sm:col-span-12'>
 							<Project
-								type='Featured Project'
-								img={tweetings}
-								title='Tweetings'
-								link='https://tweetings.vercel.app/'
-								github='https://github.com/JoaoArturCosta/tweetings/tree/main'
+								type='Project'
+								img={portfolio}
+								title='Developer Portfolio'
+								link='https://joao-costa-portfolio.netlify.com/'
+								github='https://github.com/JoaoArturCosta/portfolio-2023'
 							/>
 						</div>
 						{/* <div className='col-span-6'>Featured Project</div> */}
